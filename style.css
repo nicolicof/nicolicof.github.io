@@ -1,0 +1,105 @@
+@import url(css/elements.css);
+@import url(css/colors.css);
+@import url(css/sections/hero.css);
+@import url(css/sections/projetos.css);
+@import url(css/sections/sobre.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 18px;
+    height: 458px;
+}
+
+#hero h1 {
+    font-size: 60px;
+    line-height: 68px;
+    text-align: center;
+    font-weight: 600;
+}
+
+#hero h1 span {
+    color: var(--violet300);
+}
+
+#hero p {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--neutral400);
+    text-align: center;
+}
+
+/* ----------------- */
+#sobre h1 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#sobre p {
+    margin-top: 20px;
+    margin-bottom: 58px;
+    color: #525252;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.tech,
+.tools {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tech h2,
+.tools h2 {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 24px;
+}
+
+.tec-icons,
+.too-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.tec-icons {
+    margin-bottom: 32px;
+}
+
+.tec-icons>div,
+.too-icons>div {
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #525252;
+}
+
+#projetos {
+    margin-top: 94px;
+    margin-bottom: 92px;
+}
+
+#projetos h1 {
+    font-size: 28px;
+    margin-bottom: 40px;
+    line-height: 36px
+}
+
+.list-projects {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.list-projects>div {
+    width: 370.67px;
+    background-color: hsl(0, 0%, 20%);
+    height: 260px;
+}
