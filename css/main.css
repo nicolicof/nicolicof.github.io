@@ -1,0 +1,13 @@
+@import url(reset.css);
+@import url(colors.css);
+
+/* ---- COMPONENTES ---- */
+@import url(components/hero.css);
+@import url(components/projetos.css);
+@import url(components/footer.css);
+
+body {
+    font-family: "Inter", sans-serif;
+    color: var(--primario1);
+    background: var(--neutro0);
+}

@@ -1,0 +1,38 @@
+footer {
+    display: flex;
+    align-items: center;
+    padding: 40px 0;
+    margin: 72px 32px 0 32px;
+}
+
+footer nav {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer nav a {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 8px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 16px;
+    transition: background-color 0.15s ease;
+}
+
+footer nav a:hover {
+    background-color: hsla(0, 0%, 100%, 0.05);
+}
+
+
+@media (max-width: 380px) {
+    footer {
+        margin: 72px 16px 0 16px;
+    }
+}

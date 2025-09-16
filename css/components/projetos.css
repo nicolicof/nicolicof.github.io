@@ -1,0 +1,36 @@
+#projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 0 32px;
+}
+
+#projetos h1 {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.lista_projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.lista_projetos img {
+    height: 100%;
+}
+
+@media (max-width: 890px) {
+    .lista_projetos {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 380px) {
+    #projetos {
+        margin: 0 16px;
+    }
+}
