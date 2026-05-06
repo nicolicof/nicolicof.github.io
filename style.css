@@ -26,7 +26,7 @@
         --border: #E8E2EF;
 
         --f-display: 'Cormorant Garamond', Georgia, serif;
-        --f-body: 'Plus Jakarta Sans', -apple-system, sans-serif;
+        --f-body: 'Inter', -apple-system, sans-serif;
 
         --t-xs: 0.64rem;
         --t-sm: 0.8rem;
@@ -217,6 +217,7 @@
         font-size: var(--t-4xl);
         font-weight: 500;
         line-height: 1.08;
+        text-align: center;
         letter-spacing: -0.01em;
         color: var(--ink);
     }
@@ -628,10 +629,10 @@
     }
 
     .benefit-number {
-        font-family: var(--f-display);
+        font-family: var(--f-body);
         font-size: var(--t-5xl);
         font-weight: 300;
-        color: var(--ink-08);
+        color: var(--ink-02);
         line-height: 1;
         letter-spacing: -0.04em;
         margin-bottom: -var(--sp-2);
@@ -753,7 +754,7 @@
     }
 
     .stat-number {
-        font-family: var(--f-display);
+        font-family: var(--f-body);
         font-size: var(--t-5xl);
         font-weight: 700;
         color: var(--gold-light);
@@ -879,10 +880,11 @@
     .step-num {
         width: 48px;
         height: 48px;
+        text-align: center;
         border-radius: 50%;
         background: var(--ink);
         color: white;
-        font-family: var(--f-display);
+        font-family: var(--f-body);
         font-size: var(--t-lg);
         font-weight: 700;
         display: flex;
@@ -1040,7 +1042,7 @@
         position: absolute;
         inset: 0;
         width: 100%;
-        height: 100%;
+        max-height: 100%;
         object-fit: cover;
     }
 
@@ -1403,8 +1405,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        text-align: center;
         flex-shrink: 0;
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 16px;
         color: var(--text-soft);
         transition: all var(--transition);
         font-weight: 300;
@@ -1461,7 +1465,7 @@
     }
 
     .big-num {
-        font-family: var(--f-display);
+        font-family: var(--f-body);
         font-size: 80px;
         font-weight: 700;
         line-height: 1;
