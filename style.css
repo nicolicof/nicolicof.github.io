@@ -78,7 +78,7 @@
 
     body {
         font-family: var(--f-body);
-        background: var(--cream);
+        background: white;
         color: var(--text);
         line-height: 1.6;
         -webkit-font-smoothing: antialiased;
@@ -336,7 +336,9 @@
     /* TRUST GRID */
     .trust-grid {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(3, 100px);
         gap: var(--sp-2);
         padding: var(--sp-3) 0;
         border-top: 1px solid var(--border);
@@ -344,6 +346,9 @@
 
     .trust-item {
         display: flex;
+        border: 1px solid;
+        border-radius: 12px;
+        padding: 1rem 0;
         flex-direction: column;
         align-items: center;
         gap: 6px;
@@ -359,7 +364,7 @@
         align-items: center;
         justify-content: center;
         font-size: 16px;
-        border: 1px solid var(--border);
+        border: 1px solid;
     }
 
     .trust-label {
@@ -1231,7 +1236,7 @@
         align-items: center;
         text-align: center;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
         gap: var(--sp-8);
         padding-bottom: var(--sp-8);
         border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -1456,10 +1461,6 @@
 
         .benefit-media {
             min-height: 300px;
-        }
-
-        .trust-grid {
-            grid-template-columns: 1fr 1fr 1fr;
         }
 
         .trust-label {
