@@ -1,0 +1,32 @@
+@media (max-width: 500px) {
+    .authority-inner {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .authority-inner .authority-divider {
+        display: none;
+    }
+
+    .authority-item {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .problems-grid {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .problems-grid .problem-card:nth-child(4),
+    .problems-grid .problem-card:nth-child(5) {
+        display: block;
+    }
+
+
+
+    #testimonials-heading,
+    .section-eyebrow {
+        text-align: center;
+    }
+}

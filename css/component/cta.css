@@ -1,0 +1,46 @@
+.final-cta {
+    background: var(--cream-dark);
+    padding: var(--sp-12) var(--sp-4);
+    text-align: center;
+}
+
+.final-cta-inner {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.final-cta h2 {
+    font-family: var(--f-display);
+    font-size: var(--t-4xl);
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.1;
+    margin-bottom: var(--sp-3);
+}
+
+.final-cta h2 em {
+    font-style: italic;
+    color: var(--plum);
+}
+
+.final-cta p {
+    font-size: var(--t-md);
+    color: var(--text-mid);
+    margin-bottom: var(--sp-6);
+    font-weight: 300;
+}
+
+.final-cta .btn-primary {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.final-cta .guarantee-note {
+    margin-top: var(--sp-3);
+    font-size: var(--t-sm);
+    color: var(--text-soft);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}

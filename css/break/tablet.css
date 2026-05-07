@@ -1,0 +1,97 @@
+@media (max-width: 768px) {
+    :root {
+        font-size: 15px;
+    }
+
+
+    .announcement {
+        font-size: 10px;
+        flex-wrap: wrap;
+        gap: var(--sp-2);
+    }
+
+    .announcement .sep {
+        display: none;
+    }
+
+    .section {
+        padding: var(--sp-8) var(--sp-3);
+    }
+
+    .product-hero {
+        padding: var(--sp-4) var(--sp-3);
+    }
+
+    .product-title {
+        font-size: var(--t-3xl);
+    }
+
+    .section-title {
+        font-size: var(--t-2xl);
+    }
+
+    .problems-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .problems-grid .problem-card:nth-child(4),
+    .problems-grid .problem-card:nth-child(5) {
+        display: none;
+    }
+
+    .howto-steps {
+        grid-template-columns: 1fr;
+    }
+
+    .howto-steps::before {
+        display: none;
+    }
+
+    .tech-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .reviews-summary-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .reviews-big-score {
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+        padding-bottom: var(--sp-4);
+        padding-right: 0;
+    }
+
+    .footer-top {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .benefit-number {
+        font-size: var(--t-3xl);
+    }
+
+    .stat-number {
+        font-size: var(--t-4xl);
+    }
+
+    .ba-wrapper {
+        aspect-ratio: 4/3;
+    }
+
+    .benefit-media {
+        min-height: 300px;
+    }
+
+    .trust-label {
+        font-size: 10px;
+    }
+}
