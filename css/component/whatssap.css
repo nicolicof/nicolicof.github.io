@@ -1,0 +1,32 @@
+.whatssap-area {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#linkToWhatssap {
+    font-size: 18px;
+    line-height: 1.5;
+    background-color: green;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    justify-self: center;
+    padding: 14px 28px;
+    border-radius: 8px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+
+#linkToWhatssap:hover {
+    background-color: greenyellow;
+}
+
+#linkToWhatssap:active {
+    background-color: red;
+}
