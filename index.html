@@ -33,29 +33,17 @@
 
       <!-- GALLERY -->
       <div class="gallery" role="region" aria-label="Galeria de imagens">
+        <h1 class="product-title">
+          Sérum Redutor<br><em>Instantâneo</em><br>de Linhas
+        </h1>
         <div class="gallery-main" id="galleryMain" aria-live="polite">
-          <img id="mainImg"
-            src="https://lemoritz.com.br/cdn/shop/files/Serum_d0da453a-fc6a-4e20-bb7d-693f75f7c1e0.png?v=1775477825&width=900"
+          <img id="mainImg" src="img/produto_hero.png"
             alt="Sérum Redutor Instantâneo de Linhas Le Moritz — frasco principal" loading="eager">
         </div>
       </div>
 
       <!-- PRODUCT INFO -->
       <div class="product-info">
-        <h1 class="product-title">
-          Sérum Redutor<br><em>Instantâneo</em><br>de Linhas
-        </h1>
-
-        <!-- URGENCY -->
-        <div class="urgency-bar" role="status" aria-live="polite">
-          <div class="urgency-pulse" aria-hidden="true"></div>
-          <div class="urgency-text">
-            <strong>Atenção:</strong> apenas <strong id="stockNum">23</strong> unidades restantes neste lote
-          </div>
-          <div class="stock-bar-outer" aria-hidden="true">
-            <div class="stock-bar-inner"></div>
-          </div>
-        </div>
 
         <!-- COLLAPSIBLE DETAILS -->
         <div>
@@ -369,6 +357,64 @@
       </div>
     </section>
 
+
+
+    <!-- CTA -->
+    <section class="final-cta" aria-labelledby="final-cta-heading">
+      <div class="final-cta-inner">
+        <h2 id="final-cta-heading">Pronta para se sentir<br><em>10 anos mais jovem?</em></h2>
+        <div class="final-cta-img">
+          <img src="img/produto_hero.png" alt="image do produto">
+        </div>
+        <p>Junte-se a mais de 50.000 mulheres que já transformaram sua pele — sem agulhas, sem dor, sem sair de casa.
+        </p>
+
+        <button class="btn-primary" onclick="addToCart(this)" aria-label="Comprar Sérum Le Moritz por R$ 147,00">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            aria-hidden="true">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
+            <line x1="3" y1="6" x2="21" y2="6" />
+            <path d="M16 10a4 4 0 0 1-8 0" />
+          </svg>
+          Garantir minha unidade — R$ 147
+        </button>
+        <p class="guarantee-note">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+          </svg>
+          Garantia incondicional de 90 dias · Frete grátis
+        </p>
+      </div>
+      <div class="trust-grid" role="list" aria-label="Selos de confiança">
+        <div class="trust-item" role="listitem">
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <span class="trust-label">Garantia<br>90 dias</span>
+        </div>
+        <div class="trust-item" role="listitem">
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
+              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+            </svg>
+          </div>
+          <span class="trust-label">Pagamento<br>seguro</span>
+        </div>
+        <div class="trust-item" role="listitem">
+          <div class="trust-icon" aria-hidden="true">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </div>
+          <span class="trust-label">Entrega<br>todo Brasil</span>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ -->
     <section class="section faq-section" aria-labelledby="faq-heading">
       <div class="section-inner">
@@ -457,58 +503,6 @@
             </div>
           </div>
 
-        </div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="final-cta" aria-labelledby="final-cta-heading">
-      <div class="final-cta-inner">
-        <h2 id="final-cta-heading">Pronta para se sentir<br><em>10 anos mais jovem?</em></h2>
-        <p>Junte-se a mais de 50.000 mulheres que já transformaram sua pele — sem agulhas, sem dor, sem sair de casa.
-        </p>
-        <button class="btn-primary" onclick="addToCart(this)" aria-label="Comprar Sérum Le Moritz por R$ 147,00">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
-            aria-hidden="true">
-            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z" />
-            <line x1="3" y1="6" x2="21" y2="6" />
-            <path d="M16 10a4 4 0 0 1-8 0" />
-          </svg>
-          Garantir minha unidade — R$ 147
-        </button>
-        <p class="guarantee-note">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-            aria-hidden="true">
-            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-          </svg>
-          Garantia incondicional de 90 dias · Frete grátis
-        </p>
-      </div>
-      <div class="trust-grid" role="list" aria-label="Selos de confiança">
-        <div class="trust-item" role="listitem">
-          <div class="trust-icon" aria-hidden="true">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-            </svg>
-          </div>
-          <span class="trust-label">Garantia<br>90 dias</span>
-        </div>
-        <div class="trust-item" role="listitem">
-          <div class="trust-icon" aria-hidden="true">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <rect x="3" y="11" width="18" height="11" rx="2" ry="2" />
-              <path d="M7 11V7a5 5 0 0 1 10 0v4" />
-            </svg>
-          </div>
-          <span class="trust-label">Pagamento<br>seguro</span>
-        </div>
-        <div class="trust-item" role="listitem">
-          <div class="trust-icon" aria-hidden="true">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
-          </div>
-          <span class="trust-label">Entrega<br>todo Brasil</span>
         </div>
       </div>
     </section>
