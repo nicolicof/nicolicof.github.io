@@ -22,8 +22,12 @@
     box-shadow: var(--shadow-sm);
 }
 
-.faq-item.open {
+.faq-item.open:hover {
     border-color: var(--gold);
+}
+
+.faq-item.open:hover .faq-q {
+    color: var(--ink);
 }
 
 .faq-q {
@@ -43,33 +47,6 @@
     line-height: 1.4;
 }
 
-.faq-q:hover {
-    color: var(--ink);
-}
-
-.faq-icon {
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    border: 1.5px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-shrink: 0;
-    font-size: 16px;
-    line-height: 16px;
-    color: var(--text-soft);
-    transition: all var(--transition);
-    font-weight: 300;
-}
-
-.faq-item.open .faq-icon {
-    background: var(--gold);
-    border-color: var(--gold);
-    color: var(--ink);
-    transform: rotate(45deg);
-}
 
 .faq-a {
     max-height: 0;
