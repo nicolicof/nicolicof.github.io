@@ -1,32 +1,85 @@
 .whatssap-area {
     display: flex;
+    padding: 1.5rem;
     flex-wrap: nowrap;
     flex-direction: column;
+    background: var(--cream);
+    text-align: center;
     align-items: center;
     justify-content: center;
+}
+
+.whatssap-area .whatssap-icon {
+    margin-bottom: 1.5rem;
+}
+
+.whatssap-area .whatssap-icon img {
+    height: 100px;
+}
+
+.whatssap-area>h1 {
+    font-size: 2em;
+    line-height: 1.35;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+}
+
+.whatssap-area>p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+/* ----------- */
+.cta-whatssap {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 2rem 0;
+    gap: 0.8rem;
+    align-items: center;
+}
+
+.cta-whatssap>h2 {
+    font-size: 1.5em;
 }
 
 #linkToWhatssap {
     font-size: 18px;
     line-height: 1.5;
-    background-color: green;
+    background-color: hsl(120, 68%, 48%);
+    border: 1px solid hsl(120, 68%, 35%);
     color: white;
+    text-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
     display: flex;
     flex-direction: row;
     align-items: center;
     width: fit-content;
+    font-weight: 800;
+    gap: 16px;
     justify-self: center;
     padding: 14px 28px;
-    border-radius: 8px;
+    border-radius: 12px;
     justify-content: center;
     flex-wrap: nowrap;
     text-align: center;
 }
 
+#linkToWhatssap>img {
+    height: 28px;
+    width: 28px;
+}
+
 #linkToWhatssap:hover {
-    background-color: greenyellow;
+    background-color: hsl(120, 68%, 58%);
+    border-color: hsl(120, 68%, 45%);
 }
 
 #linkToWhatssap:active {
-    background-color: red;
+    background-color: hsl(120, 68%, 38%);
+    border-color: hsl(120, 68%, 25%);
+}
+
+#linkToWhatssap:active>img {
+    filter: brightness(0.9);
 }

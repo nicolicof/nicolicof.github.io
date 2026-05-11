@@ -44,3 +44,32 @@
     justify-content: center;
     gap: 6px;
 }
+
+.btn-primary {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: hsl(109, 93%, 41%);
+    border: 1px solid hsl(109, 93%, 31%);
+    color: hsl(0, 0%, 100%);
+    font-family: var(--f-body);
+    font-size: 18px;
+    font-weight: 700;
+    text-shadow: 0 0 4px hsla(0, 0%, 0%, 0.6);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding: 20px var(--sp-6);
+    border-radius: 12px;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background: hsl(109, 93%, 37%);
+    border-color: hsl(109, 93%, 27%);
+}
+
+
+.btn-primary:active {
+    background: hsl(109, 93%, 33%);
+    border-color: hsl(109, 93%, 23%);
+}
